@@ -13,4 +13,4 @@ class GuestUserPayment implements Payment {
     	System.out.println("Processing "+name+"'s current payment request.");
     	//Some other code, if any
     }
-}﻿
+}
