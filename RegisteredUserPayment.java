@@ -1,4 +1,4 @@
-class RegisteredUserPayment implements Payment {
+class RegisteredUserPayment implements Payment, PyamentHistory {
     String name;
     public RegisteredUserPayment(String userName) {
         this.name = userName;

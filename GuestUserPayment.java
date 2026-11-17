@@ -5,7 +5,7 @@ class GuestUserPayment implements Payment {
     }
     @Override
     public void previousPaymentInfo(){
-    	throw new UnsupportedOperationException();
+    	System.out.println("Processing " +name+"s previous payments");
     }
  
     @Override
